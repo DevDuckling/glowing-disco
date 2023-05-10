@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import '/components/links/links.css';
+@import '/components/grids/grid.css';
+
+body{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    height: 97vh;
+}
+
+.logo{
+    width: auto;
+    height: 100px;
+    align-items: center;
+}
+
+
+
+.nav-simple-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.footer-simple{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.hero{
+    width: 100%;
+    height:auto;
+}
