@@ -1,0 +1,56 @@
+
+.grid{
+    display: grid;
+}
+
+.grid-one-by-three{
+    grid-template:1fr/repeat(3, 1fr) ;
+}
+
+.grid-two-by-three{
+    grid-template:repeat(2, 1fr)/repeat(3, 1fr) ;
+
+}
+/* ---3x3---- */
+
+.grid-three-by-three{
+    grid-template: repeat(  3, 1fr) / repeat(  3, 1fr);
+}
+
+.grid-top-row{
+    grid-area: 1/1/2/-1;
+}
+
+.grid-top-row-first{
+    grid-area: 1/1/2/2;
+
+}
+
+.grid-top-row-middle{
+    grid-area: 1/2/2/3;
+}
+
+.grid-top-row-last{
+    grid-area: 1/3/2/-1;
+}
+/* --- */
+.grid-middle-row{
+    grid-area:2/1/3/-1;
+}
+
+.grid-middle-merge-two{
+    grid-area: 2/1/2/3;
+}
+
+.grid-middle-row-last{
+    grid-area: 2/3/2/-1;
+
+}
+
+.grid-last-row{
+    grid-area: 3/2/-1/3;
+
+}
+
+/* -------- */
+
